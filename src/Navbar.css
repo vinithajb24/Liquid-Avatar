@@ -1,0 +1,41 @@
+#navpage .view {
+  background-image: url("https://liquidavatar.com/wp-content/uploads/2020/06/City-Scape-dark-bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+#navpage .card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+#navpage .navbar {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  #navpage .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+}
+
+.avatar {
+  height: 40px;
+}
+
+.avatar-img{
+  height: 88%;
+}
+.header{
+  margin-top: 20px;
+  font-weight: 700;
+    font-size: 32px;
+    font-family: "Montserrat", Arial, Tahoma, sans-serif;
+}
+
+.head{
+  font-weight: 700;
+    font-size: 24px;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+}
